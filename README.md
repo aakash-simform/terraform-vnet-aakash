@@ -36,7 +36,7 @@ This module creates a complete Azure networking infrastructure with the followin
 
 ```hcl
 module "vnet" {
-  source = "./module"
+  source  = "aakash-simform/aakash/vnet"
 
   # Basic Configuration
   location                     = "Central India"
@@ -83,7 +83,7 @@ module "vnet" {
 
 ```hcl
 module "vnet" {
-  source = "./module"
+  source  = "aakash-simform/aakash/vnet"
 
   # Basic Configuration
   location                     = "Central India"
@@ -262,7 +262,7 @@ vnet_peering_details = {
 
 ```hcl
 module "web_vnet" {
-  source = "./module"
+  source  = "aakash-simform/aakash/vnet"
 
   location                     = "East US"
   resource_group_name          = "web-app-rg"
@@ -334,7 +334,7 @@ module "web_vnet" {
 
 ```hcl
 module "enterprise_vnet" {
-  source = "./module"
+  source  = "aakash-simform/aakash/vnet"
 
   location                     = "West Europe"
   resource_group_name          = "enterprise-rg"
@@ -447,6 +447,10 @@ terraform apply
 3. Make your changes
 4. Add tests if applicable
 5. Submit a pull request
+
+## 📄 License
+
+This module is released under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## 👨‍💻 Author
 
