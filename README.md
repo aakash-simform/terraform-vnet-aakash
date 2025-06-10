@@ -448,10 +448,6 @@ terraform apply
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
-
-This module is released under the MIT License. See [LICENSE](LICENSE) for details.
-
 ## 👨‍💻 Author
 
 **Aakash Shah**
